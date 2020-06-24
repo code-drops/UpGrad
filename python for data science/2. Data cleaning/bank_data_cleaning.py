@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # read csv file and skipping first two rows
-bank = pd.read_csv("bank_marketing_updated_v1.csv",skiprows=2,index_col="customerid")
+bank = pd.read_csv("bank marketing.csv",skiprows=2,index_col="customerid")
 
 ################## Fixing the rows and columns #################################
 # # correcting the jobedu column
